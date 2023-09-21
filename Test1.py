@@ -20,7 +20,7 @@ fig = ps.box(df, y = ['Age', 'Experience', 'Income', 'Family', 'Education'])
 fig.show()
 #Tìm độ lẹch của dữ liệu trên trục chỉ mục cột
 print(df.skew())
-
+  
 #Dựng bđ cột 
 df.hist(figsize = (20, 20))
 plt.show()
